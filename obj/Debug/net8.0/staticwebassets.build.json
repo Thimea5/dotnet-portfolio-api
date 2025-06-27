@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZE3oZKxGSNkmeaJqQhh4emT6Ln6Y6Atvsd2kSRfGfP0=",
+  "Source": "dotnet-portfolio-api",
+  "BasePath": "_content/dotnet-portfolio-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
