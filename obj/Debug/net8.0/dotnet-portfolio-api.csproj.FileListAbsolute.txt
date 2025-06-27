@@ -31,3 +31,16 @@ C:\Users\Thiméa\Documents\dotnet-portfolio-api\obj\Debug\net8.0\refint\dotnet-p
 C:\Users\Thiméa\Documents\dotnet-portfolio-api\obj\Debug\net8.0\dotnet-portfolio-api.pdb
 C:\Users\Thiméa\Documents\dotnet-portfolio-api\obj\Debug\net8.0\dotnet-portfolio-api.genruntimeconfig.cache
 C:\Users\Thiméa\Documents\dotnet-portfolio-api\obj\Debug\net8.0\ref\dotnet-portfolio-api.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Thiméa\Documents\dotnet-portfolio-api\obj\Debug\net8.0\dotnet-portfolio-api.sourcelink.json
