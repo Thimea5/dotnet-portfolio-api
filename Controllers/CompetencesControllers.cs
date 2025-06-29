@@ -14,9 +14,10 @@ namespace dotnet_portfolio_api.Controllers
         {
             _context = context;
 
-            // Si aucune compétence ajoutée
+            // Si aucune compétence ajoutée 
             if (!_context.Competences.Any())
             {
+                //J'ajoute des données dans la mémoire (seulement en RAM)
                 _context.Competences.AddRange(
                     new Competence { Nom = "Aucune compétence ?", Categorie = "Erreur", Niveau = 0 }
                 );

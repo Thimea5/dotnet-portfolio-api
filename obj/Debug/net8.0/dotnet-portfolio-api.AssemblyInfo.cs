@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-portfolio-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe38216fbf1f18e78e6e10754b0a2392e3f57b6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1cb6b86aadcfd85eff2092e1c8dddbefeec1f8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-portfolio-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-portfolio-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

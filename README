@@ -1,0 +1,45 @@
+# Portfolio Développeuse — Projet Full Stack React / .NET
+
+Ce projet est un portfolio personnel développé en React (frontend) et .NET (backend).
+
+---
+
+## 📦 Structure du projet
+
+- `react-portfolio/` → Application frontend développée avec **React, HTML, CSS et JavaScript**
+- `dotnet-portfolio-api/` → API backend développée avec **.NET 8**, exposant des données via une API REST
+
+Les deux projets sont séparés dans des dossiers distincts pour garantir une indépendance entre le front et le back. Cela permet de maintenir et déployer chaque partie de manière isolée.
+
+---
+
+## 🗂️ Fonctionnalités actuelles
+
+- Affichage des compétences (nom, catégorie, niveau)
+- Données exposées via une API REST (`/api/competences`)
+- Intégration React avec appel à l'API via `fetch()`
+- Stockage temporaire des données via une **base en mémoire** (`UseInMemoryDatabase`)
+
+---
+
+## 🧪 Technologies utilisées
+
+- **Frontend** : React, JavaScript, HTML, CSS
+- **Backend** : .NET 8, Entity Framework Core, InMemoryDatabase
+- **Outils** : Visual Studio Code, Swagger (optionnel), Git
+
+---
+
+## 🔄 À venir
+
+- Passage à une base de données réelle.
+- Ajout d'autres sections (projets, expériences, contact)
+- Amélioration du design et de la responsivité (probablement via Tailwind CSS ou Bootstrap)
+
+---
+
+## 🚀 Lancer le projet
+
+### Backend (.NET)
+```bash
+dotnet run

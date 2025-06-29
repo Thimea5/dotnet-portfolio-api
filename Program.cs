@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Utiliser la RAM pour stocker mes données
 builder.Services.AddDbContext<PortfolioContext>(options => options.UseInMemoryDatabase("PortfolioDB"));
 
 builder.Services.AddControllers();
