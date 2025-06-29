@@ -8,5 +8,7 @@ namespace dotnet_portfolio_api.Data
         public PortfolioContext(DbContextOptions<PortfolioContext> options) : base(options) { }
 
         public DbSet<Competence> Competences { get; set; }
+
+        public DbSet<Formation> Formations { get; set; }
     }
 }
