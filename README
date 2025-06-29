@@ -32,7 +32,6 @@ Les deux projets sont séparés dans des dossiers distincts pour garantir une in
 
 ## 🔄 À venir
 
-- Passage à une base de données réelle.
 - Ajout d'autres sections (projets, expériences, contact)
 - Amélioration du design et de la responsivité (probablement via Tailwind CSS ou Bootstrap)
 
@@ -43,3 +42,15 @@ Les deux projets sont séparés dans des dossiers distincts pour garantir une in
 ### Backend (.NET)
 ```bash
 dotnet run
+```
+
+## BDD SQLite
+Pour la BDD j'utile SQLite qui est la solution la plus simple actuellement pour mes besoins. SQLite3 me permet d'ajouter des données via la commande sqlite3 que j'ai configuré comme variable d'environnement.
+
+Générer les scripts (migration) nécéssaires pour mes tables :
+dotnet ef migrations add InitialCreate
+
+Mettre a jour SQLite avec la migration générée :
+dotnet ef database update
+
+

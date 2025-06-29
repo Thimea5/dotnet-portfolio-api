@@ -8,8 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Utiliser la RAM pour stocker mes données
-builder.Services.AddDbContext<PortfolioContext>(options => options.UseInMemoryDatabase("PortfolioDB"));
+//Utiliser SqLite pour les données
+builder.Services.AddDbContext<PortfolioContext>(options =>
+    options.UseSqlite("Data Source=portfolio.db"));
 
 builder.Services.AddControllers();
 
@@ -26,6 +27,12 @@ builder.Services.AddCors(options =>
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<PortfolioContext>();
+    SeedData.Initialize(context);
+}
 
 //Autorise les appels venant de React
 app.UseCors("AllowReactApp");
